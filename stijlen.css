@@ -1,0 +1,47 @@
+html {
+    background-color: #7AA983;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+* {
+    border: 0;
+    padding: 0;
+}
+
+#game-board {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #DCDCDC;
+    width: 730px;
+    cursor: pointer;
+    
+}
+
+.column {
+    
+    width: 100px;
+    display:inline-block;
+}
+
+circle.free
+{
+    fill: white;
+}
+
+.column:hover circle.free {
+    fill: #CBD8F6;
+}
+
+circle.rood {
+    fill: #D16D59;
+}
+
+circle.geel {
+    fill: #EDF087;
+}
